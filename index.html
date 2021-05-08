@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap" rel="stylesheet">
+    <title>Forgot Password</title>
+    <style>
+        body{
+            color:#3E4C59;
+            font-size:16px;
+            font-family: 'Inter', sans-serif;
+            padding:100px;
+        }
+        h1{
+            font-weight:bolder;
+            font-size:50px;
+        }
+        .bold{
+            font-weight:bold;
+        }
+        .head{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .container{
+            width:85%;
+            margin:80px auto 0 auto;
+            height:400px;
+            position:relative;
+        }
+        .container .inner{
+            width:95%;
+            height:90%;
+            background:lightpink;
+            position:relative;
+        }
+        .container .inner img{
+            position:absolute;
+            bottom:0;
+            right:50px;
+            height:600px;
+        }
+        .container .image-bg{
+            background-image: linear-gradient(rgba(0,0,0,.03), rgba(0,0,0,.4));
+            position:absolute;
+            bottom:0;
+            right:0;
+            height:80%;
+            width:70%;
+        }
+        .container .name{
+            position:absolute;
+            left:50px;
+            bottom:0;
+        }
+        .container .name .bg{
+            display:inline-block;
+            width:5px;
+            background:purple;
+            height:300px;
+            margin-bottom:10px;
+        }
+        .container .name .bold{
+            display:inline-block;
+            margin-left:10px;
+        }
+        .container .text{
+            padding:75px 500px 0 75px;
+        }
+        .container .quote{
+            font-size:100px;
+            line-height:10px;
+        }
+        .container .content{
+            margin:0 0 50px 0;
+        }
+        .right{
+            text-align:right;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Customers Stories</h1>
+        <div class="bold">View more stories</div>
+    </div>
+    <div class="container">
+        <div class="inner">
+            <div class="text">
+                <div class="quote">"</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae elementum curabitur vitae nunc sed velit dignissim. Nibh venenatis cras sed felis eget velit aliquet sagittis. Nunc vel risus commodo viverra maecenas accumsan lacus vel. Ipsum faucibus vitae aliquet nec ullamcorper sit. Vel turpis nunc eget lorem dolor sed viverra. Pharetra convallis posuere morbi leo urna molestie at elementum eu.</div>
+                <div class="quote right">"</div>
+            </div>
+            <img src="review-image.svg" alt="image" />
+        </div>
+        <div class="name">
+            <div class="bg"></div>
+            <div class="bold">Mary Jane</div>
+        </div>
+        
+        <div class="image-bg"></div>
+    </div>
+</body>
+</html>
